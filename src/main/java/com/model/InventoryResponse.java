@@ -4,6 +4,11 @@ import java.io.Serializable;
 
 public class InventoryResponse implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	private String orderId;
 	private int returnCode;
 	private String comment;
